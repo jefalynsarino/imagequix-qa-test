@@ -1,0 +1,29 @@
+.app {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.app-header {
+  padding: 1rem;
+}
+
+.content {
+  padding: 1rem;
+  font-size: 16px;
+}
+
+.post {
+  padding: 0.5rem 0;
+}
+
+.post .author {
+  font-size: 14px;
+}
+
+.subreddit-input {
+  margin: 0 0.5rem;
+}
